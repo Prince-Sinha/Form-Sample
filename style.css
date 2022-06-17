@@ -1,0 +1,200 @@
+body{
+  font-family: "Montserrat";
+  margin-right: 0;
+}
+h1{
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 150px 0 40px 0;
+}
+h2{
+  color: grey;
+  font-family: "Montserrat-Black";
+  font-size: 2.5rem;
+  line-height: 1;
+  padding: 3%;
+}
+h3{
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  text-align: left;
+}
+p{
+  color: #540;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+}
+
+/* Title Section */
+
+.container-fluid{
+  padding:1.5% 3% 6% 3%;
+}
+#title{
+  background-color: #ffd6d6;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(255,214,214,1) 100%);
+  }
+
+/* Navigation Bar */
+
+.nav-item{
+  padding: 0px 5px;
+}
+.nav-link{
+  color:#555;
+  font-family: 'Poppins', sans-serif;
+}
+.navbar{
+  padding: 0px 10px 4.5rem; */
+  margin-bottom: 50px;
+}
+
+/* Features */
+
+#feature{
+ padding: 3% 15%;
+ text-align: center;
+}
+.icon{
+  background-color:#ff523b;
+  color:#fff;
+  margin-top: 18px;
+}
+.feature-box{
+  text-align: center;
+}
+
+/* Press */
+
+#cta{
+  padding: 5% 8%;
+  margin: auto;
+  background-color: #ffd6d6;
+  background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 18%, rgba(255,214,214,1) 100%);
+}
+.cta-content{
+  margin: 25px 0;
+}
+.col-pricing{
+  padding: 70px 50px;
+  text-align: center;
+}
+.watch-image{
+  width : 90%;
+}
+
+/* Brand-Logo */
+
+.title-image{
+  width : 100%;
+}
+.redstore-logo{
+  width: 125px;
+  padding-bottom: 1%;
+}
+.bi-bag{
+  margin: 0 5px;
+  color: #540;
+}
+#logoz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:1.5rem;
+  margin-bottom:1.5rem;
+}
+#logoz > img{
+  height: auto;
+  width:10rem;
+}
+.logo-white{
+  width: 250px;
+  padding: 0 10% 0.5%;
+}
+.logo{
+  text-align: center;
+  position: relative;
+  left: 45%;
+}
+
+/* Footer */
+
+#footer{
+  padding: 4% 3% 0.5%;
+  background-color: #000;
+  }
+  .download-message{
+    text-align: left;
+  }
+  .download-button{
+    margin-bottom: 25px;
+  }
+  .download-button:hover{
+    color: #fff;
+    background-color: black;
+  }
+
+.footer-list{
+  color: #555;
+  font-family: 'Poppins', sans-serif;
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
+.footer-para{
+  text-align: center;
+  margin-top: 0;
+}
+
+.bi-twitter:hover{
+  color: #0dcaf0;
+}
+.bi-facebook:hover{
+  color: #0d6efd;
+}
+.bi-instagram:hover{
+  color: #8a3ab9;
+}
+.bi-envelope-fill:hover{
+  color:#fff;
+}
+hr{
+  color: #fff;
+}
+
+/* Media Query */
+
+@media(max-width:1028px){
+  .container-fluid{
+    padding-left: 30px;
+  }
+  .navbar{
+    padding-bottom: 1px;
+    margin-bottom: 0;
+  }
+  #cta{
+    padding: 10% 2%;
+  }
+  .cta-content{
+    padding-left: 30px;
+  }
+  .icon{
+    margin-left: 26px;
+  }
+  #footer, .download-message{
+    text-align: center;
+  }
+.container{
+  padding-right: 45%;
+ }
+ #logoz{
+   padding-left: 60%
+  }
+
+
+}
